@@ -18,9 +18,9 @@ Tema único para os quatro projetos: cardápio digital de uma cafeteria.
 
 ### Projeto 05 — Cópia de repositório · `Aula 6/`
 
-- Repositório original:
-- Meu repositório:
-- Vercel:
+- Repositório original: https://github.com/Arthur-2612/frontend-summary (Arthur Faria e Silva)
+- Cópia neste repositório: [`Aula 6/frontend-summary`](Aula%206/frontend-summary)
+- Vercel: não se aplica — é um repositório de resumos em Markdown, sem aplicação para publicar
 
 ---
 

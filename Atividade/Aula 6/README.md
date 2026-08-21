@@ -2,53 +2,44 @@
 
 Atividade da **Aula 03 — Projetos com Frameworks Front-end** · Frameworks Front-end · SENAI
 
-> **Status: pendente.** Falta definir o repositório a ser clonado (repositório do Arthur).
+## Repositório de origem
 
-## O que o slide pede
+| | |
+|---|---|
+| **Repositório** | [Arthur-2612/frontend-summary](https://github.com/Arthur-2612/frontend-summary) |
+| **Autor** | Arthur Faria e Silva ([@Arthur-2612](https://github.com/Arthur-2612)) |
+| **Conteúdo** | Resumos das aulas da disciplina, em Markdown |
+| **Copiado em** | 20/08/2026 |
 
-> Projeto 05: Uma cópia de um projeto a partir de um repositório.
+## O que foi feito
 
-O slide "Buscando Projetos por Frameworks" indica as ferramentas para isso:
-
-- **GitHub** — Repository search → `git clone <url>`
-- **Vercel** — busca por templates (download de parte do repositório)
-- **CodeSandbox** — Template search
-
-## Como fazer o clone
-
-Abra o terminal **dentro desta pasta** (`Atividade/Aula 6`) e rode:
+O repositório foi copiado com o comando indicado no slide "Buscando Projetos por Frameworks":
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/Arthur-2612/frontend-summary.git
 ```
 
-Depois entre na pasta criada e instale as dependências:
+Em seguida, a pasta `.git` do repositório original foi removida, para que os arquivos
+passassem a fazer parte deste repositório em vez de formarem um repositório aninhado.
 
-```bash
-npm install
-npm run dev
+## Conteúdo copiado
+
+```
+frontend-summary/
+├── README.md                                        # índice e projetos da disciplina
+├── Aula 01 - Apresentação da Disciplina/
+│   └── aula01_resumo.md
+├── Aula 02 - Configuração do Ambiente de Desenvolvimento/
+│   └── aula02_resumo.md
+└── Aula 03 - Frameworks/
+    └── aula03_resumo.md
 ```
 
-> Se o projeto clonado usar outro gerenciador (yarn/pnpm) ou outro comando de start,
-> confira o `README.md` e o `package.json` do próprio repositório.
+É um repositório de **documentação**, não de código: reúne os resumos das três aulas
+em Markdown, além de uma tabela com os links dos projetos práticos do autor.
+Por isso não há dependências para instalar nem aplicação para executar.
 
-## Depois de clonar
+## Créditos
 
-1. Remova o histórico do repositório original, para publicar como projeto próprio:
-
-   ```bash
-   rm -rf .git
-   git init
-   git add .
-   git commit -m "Projeto 05: cópia do repositório <nome>"
-   ```
-
-2. Anote no arquivo [`../LINKS.MD`](../LINKS.MD):
-   - a URL do repositório original (crédito ao autor);
-   - a URL do seu repositório no GitHub;
-   - a URL do deploy (Vercel), se houver.
-
-3. Descreva neste README:
-   - qual framework o projeto usa;
-   - o que ele faz;
-   - o que foi alterado em relação ao original.
+Todo o conteúdo desta pasta é de autoria de **Arthur Faria e Silva**, copiado do
+repositório público [frontend-summary](https://github.com/Arthur-2612/frontend-summary).

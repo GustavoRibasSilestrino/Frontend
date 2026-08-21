@@ -28,9 +28,9 @@ Cada aula tem sua pasta, seu código e seu deploy.
 | **03** | Cardápio Digital — Projeto 02 | `Vue 3 + Vite` | [📁 cardapio-vue](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%203/cardapio-vue) | [🔗 Acessar](https://cardapio-vue-one.vercel.app) | ✅ Publicado |
 | **04** | Cardápio Digital — Projeto 03 | `Angular` | [📁 cardapio-angular](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%204/cardapio-angular) | [🔗 Acessar](https://cardapio-angular.vercel.app) | ✅ Publicado |
 | **05** | Cardápio Digital — Projeto 04 | `Next.js (App Router)` | [📁 cardapio-next](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%205/cardapio-next) | [🔗 Acessar](https://cardapio-next-khaki.vercel.app) | ✅ Publicado |
-| **06** | Cópia de um repositório — Projeto 05 | `a definir` | [📁 Aula 6](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%206) | ⏳ | 🚧 Pendente |
+| **06** | Cópia de um repositório — Projeto 05 | `Markdown` | [📁 Aula 6](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%206) | [🔗 Original](https://github.com/Arthur-2612/frontend-summary) | ✅ Copiado |
 
-> Os quatro projetos estão publicados na Vercel. O Projeto 05 aguarda a definição do repositório a ser copiado.
+> Os quatro projetos do cardápio estão publicados na Vercel. O Projeto 05 é a cópia do repositório de resumos do Arthur.
 
 ---
 
@@ -73,24 +73,6 @@ assim, a única variável entre os projetos é o framework, o que torna a compar
 
 ---
 
-## ▶️ Como rodar
-
-Clone o repositório, entre na pasta do projeto desejado e rode:
-
-```bash
-npm install
-```
-
-| Projeto | Comando | Endereço local |
-|---|---|---|
-| ⚛️ React | `npm run dev` | http://localhost:5173 |
-| 💚 Vue | `npm run dev` | http://localhost:5173 |
-| 🅰️ Angular | `npm start` | http://localhost:4200 |
-| ▲ Next.js | `npm run dev` | http://localhost:3000 |
-
-> A Aula 1 é HTML puro: basta abrir o `index.html` no navegador.
-
----
 
 ## 📁 Estrutura
 
