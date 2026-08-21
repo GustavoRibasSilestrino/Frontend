@@ -33,9 +33,9 @@ Material oficial da disciplina, publicado pelo professor em
 
 | Pasta | Conteúdo |
 |---|---|
-| [`MD Aula 1`](MD%20Aula%201) | Resumo e anotações da Aula 01 |
-| `MD Aula 2` | *(vazia — anotações da Aula 02)* |
-| `MD Aula 3` | *(vazia — anotações da Aula 03)* |
+| [`MD Aula 1`](MD%20Aula%201) | Link do slide da Aula 01 |
+| [`MD Aula 2`](MD%20Aula%202) | Link do slide da Aula 02 |
+| [`MD Aula 3`](MD%20Aula%203) | Link do slide da Aula 03 |
 
 ---
 
