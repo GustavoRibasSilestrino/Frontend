@@ -22,7 +22,7 @@ export const produtos = [
     descricao: 'Café, chocolate e gelo com chantilly.',
     preco: 14.5,
     categoria: 'Cafés',
-    emoji: '🧋',
+    emoji: '🥤',
   },
   {
     id: 4,
