@@ -1,0 +1,30 @@
+<app-cabecalho [quantidadeItens]="quantidadeItens()" />
+
+<main class="container">
+  <section class="hero">
+    <h2>Sabor que combina com o seu dia</h2>
+    <p>
+      Cafés especiais, salgados quentinhos e doces artesanais. Monte seu pedido
+      escolhendo os itens abaixo.
+    </p>
+  </section>
+
+  <app-filtro-categorias
+    [categorias]="categorias"
+    [categoriaAtiva]="categoriaAtiva()"
+    (selecionar)="selecionarCategoria($event)"
+  />
+
+  <app-carrinho-resumo
+    [itens]="itensCarrinho()"
+    (remover)="removerProduto($event)"
+  />
+
+  <div class="lista-produtos">
+    @for (produto of produtosFiltrados(); track produto.id) {
+      <app-produto-card [produto]="produto" (adicionar)="adicionarProduto($event)" />
+    }
+  </div>
+</main>
+
+<app-rodape />

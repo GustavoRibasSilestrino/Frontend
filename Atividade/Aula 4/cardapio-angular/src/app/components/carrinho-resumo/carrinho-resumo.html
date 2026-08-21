@@ -1,0 +1,34 @@
+<section class="carrinho">
+  <h3>🧾 Seu pedido</h3>
+
+  @if (itens().length === 0) {
+    <p class="carrinho-vazio">
+      Nenhum item adicionado ainda. Escolha algo saboroso no cardápio!
+    </p>
+  } @else {
+    <ul class="carrinho-lista">
+      @for (item of itens(); track item.produto.id) {
+        <li class="carrinho-item">
+          <span>
+            {{ item.quantidade }}x {{ item.produto.emoji }}
+            {{ item.produto.nome }}
+          </span>
+          <span>
+            {{ formatarPreco(item.produto.preco * item.quantidade) }}
+            <button
+              class="btn-remover"
+              [attr.aria-label]="'Remover ' + item.produto.nome"
+              (click)="remover.emit(item.produto.id)"
+            >
+              −
+            </button>
+          </span>
+        </li>
+      }
+    </ul>
+    <div class="carrinho-total">
+      <span>Total</span>
+      <span>{{ formatarPreco(total()) }}</span>
+    </div>
+  }
+</section>

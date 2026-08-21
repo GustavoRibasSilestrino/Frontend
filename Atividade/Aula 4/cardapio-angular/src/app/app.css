@@ -1,0 +1,29 @@
+.hero {
+  text-align: center;
+  padding: 40px 0 24px;
+}
+
+.hero h2 {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  color: var(--cor-cafe);
+  margin-bottom: 8px;
+}
+
+.hero p {
+  color: var(--cor-cafe-claro);
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.lista-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 480px) {
+  .lista-produtos {
+    grid-template-columns: 1fr;
+  }
+}

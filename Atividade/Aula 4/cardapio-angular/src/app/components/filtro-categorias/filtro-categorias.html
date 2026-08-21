@@ -1,0 +1,11 @@
+<div class="filtros">
+  @for (categoria of categorias(); track categoria) {
+    <button
+      class="filtro-btn"
+      [class.ativo]="categoria === categoriaAtiva()"
+      (click)="selecionar.emit(categoria)"
+    >
+      {{ categoria }}
+    </button>
+  }
+</div>

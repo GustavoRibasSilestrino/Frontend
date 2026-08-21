@@ -1,0 +1,31 @@
+/* ===== Estilos globais - Cardápio Digital (Angular) ===== */
+:root {
+  --cor-fundo: #fff8f0;
+  --cor-cafe: #6f4e37;
+  --cor-cafe-claro: #a9836b;
+  --cor-destaque: #c08552;
+  --cor-texto: #2f2622;
+  --cor-borda: #ecdcc9;
+  --sombra: 0 4px 14px rgba(111, 78, 55, 0.12);
+  --raio: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  line-height: 1.5;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}

@@ -1,0 +1,31 @@
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.filtro-btn {
+  border: 1px solid var(--cor-borda);
+  background-color: #fff;
+  color: var(--cor-cafe);
+  padding: 9px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+.filtro-btn:hover {
+  border-color: var(--cor-destaque);
+  transform: translateY(-2px);
+}
+
+.filtro-btn.ativo {
+  background-color: var(--cor-cafe);
+  border-color: var(--cor-cafe);
+  color: #fff;
+}

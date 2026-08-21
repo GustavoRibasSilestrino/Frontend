@@ -1,0 +1,79 @@
+:host {
+  display: block;
+}
+
+.card {
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: var(--sombra);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-emoji {
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  color: var(--cor-cafe);
+}
+
+.card-descricao {
+  font-size: 0.88rem;
+  color: #6b5c53;
+  flex-grow: 1;
+}
+
+.card-rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.preco {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--cor-destaque);
+}
+
+.btn-adicionar {
+  background-color: var(--cor-cafe);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 14px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-adicionar:hover {
+  background-color: var(--cor-destaque);
+}
+
+.tag-categoria {
+  align-self: flex-start;
+  background-color: #f6ece1;
+  color: var(--cor-cafe);
+  border-radius: 6px;
+  padding: 3px 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}

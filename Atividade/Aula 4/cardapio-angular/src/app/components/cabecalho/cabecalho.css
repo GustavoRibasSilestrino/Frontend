@@ -1,0 +1,51 @@
+.cabecalho {
+  display: block;
+  background-color: var(--cor-cafe);
+  color: #fff;
+  padding: 18px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.cabecalho .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.logo span {
+  font-size: 1.7rem;
+}
+
+.logo small {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.badge-carrinho {
+  background-color: var(--cor-destaque);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 480px) {
+  .cabecalho .container {
+    justify-content: center;
+    text-align: center;
+  }
+}
