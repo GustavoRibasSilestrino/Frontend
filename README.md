@@ -23,7 +23,7 @@ Repositório das atividades da disciplina — por **Gustavo Ribas Silestrino**
 | **02** | 💚 Vue 3 + Vite | **[cardapio-vue-one.vercel.app](https://cardapio-vue-one.vercel.app)** | [📂 ver](Atividade/Aula%203/cardapio-vue) |
 | **03** | 🅰️ Angular | **[cardapio-angular.vercel.app](https://cardapio-angular.vercel.app)** | [📂 ver](Atividade/Aula%204/cardapio-angular) |
 | **04** | ▲ Next.js (App Router) | **[cardapio-next-khaki.vercel.app](https://cardapio-next-khaki.vercel.app)** | [📂 ver](Atividade/Aula%205/cardapio-next) |
-| **05** | 📦 Cópia de repositório | [frontend-summary](https://github.com/Arthur-2612/frontend-summary) *(do Arthur)* | [📂 ver](Atividade/Aula%206) |
+| **05** | 📦 Cópia de repositório | [frontend-summary](https://github.com/Arthur-2612/frontend-summary) | [📂 ver](Atividade/Aula%206) |
 
 ---
 
