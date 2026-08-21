@@ -9,60 +9,29 @@ Repositório das atividades da disciplina — por **Gustavo Ribas Silestrino**
 ![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 ![Angular](https://img.shields.io/badge/Angular-0F0F11?style=for-the-badge&logo=angular&logoColor=E23237)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
 
 ---
 
-## 🍽️ Os projetos
+## 🌐 Sites publicados
+
+| Projeto | Tecnologia | Acessar o site | Código |
+|:--:|---|:--:|:--:|
+| **01** | ⚛️ React 19 + Vite | **[cardapio-react-phi.vercel.app](https://cardapio-react-phi.vercel.app)** | [📂 ver](Atividade/Aula%202/cardapio-react) |
+| **02** | 💚 Vue 3 + Vite | **[cardapio-vue-one.vercel.app](https://cardapio-vue-one.vercel.app)** | [📂 ver](Atividade/Aula%203/cardapio-vue) |
+| **03** | 🅰️ Angular | **[cardapio-angular.vercel.app](https://cardapio-angular.vercel.app)** | [📂 ver](Atividade/Aula%204/cardapio-angular) |
+| **04** | ▲ Next.js (App Router) | **[cardapio-next-khaki.vercel.app](https://cardapio-next-khaki.vercel.app)** | [📂 ver](Atividade/Aula%205/cardapio-next) |
+| **05** | 📦 Cópia de repositório | *em andamento* | [📂 ver](Atividade/Aula%206) |
+
+---
+
+## 🍽️ Sobre os projetos
 
 O mesmo site — o **Cardápio Digital da cafeteria Café Aroma** — desenvolvido **quatro vezes**,
 uma em cada tecnologia. Mesmo layout, mesmas funcionalidades, mesma base de dados: a única
 variável é o framework.
-
-| Projeto | Tecnologia | Código | Rodar | Site |
-|:--:|---|:--:|:--:|:--:|
-| **01** | React 19 + Vite | [📂 cardapio-react](Atividade/Aula%202/cardapio-react) | `npm run dev` → :5173 | ⏳ |
-| **02** | Vue 3 + Vite | [📂 cardapio-vue](Atividade/Aula%203/cardapio-vue) | `npm run dev` → :5173 | ⏳ |
-| **03** | Angular | [📂 cardapio-angular](Atividade/Aula%204/cardapio-angular) | `npm start` → :4200 | ⏳ |
-| **04** | Next.js (App Router) | [📂 cardapio-next](Atividade/Aula%205/cardapio-next) | `npm run dev` → :3000 | ⏳ |
-| **05** | *cópia de repositório* | [📂 Aula 6](Atividade/Aula%206) | — | 🚧 |
-
-> ⏳ Os sites ainda não estão publicados. As imagens abaixo mostram exatamente como cada um
-> roda — a prévia funciona aqui no GitHub, sem depender de deploy.
-
----
-
-## 👀 Prévia
-
-### ⚛️ Projeto 01 — React
-
-![Cardápio Digital em React](docs/preview/react.png)
-
-### 💚 Projeto 02 — Vue
-
-![Cardápio Digital em Vue](docs/preview/vue.png)
-
-### 🅰️ Projeto 03 — Angular
-
-![Cardápio Digital em Angular](docs/preview/angular.png)
-
-### ▲ Projeto 04 — Next.js
-
-![Cardápio Digital em Next.js](docs/preview/next.png)
-
-### 📱 Responsivo
-
-<div align="center">
-<img src="docs/preview/react-mobile.png" alt="Versão mobile do cardápio" width="330">
-</div>
-
-Em telas de até 480px o grid vira uma coluna única e o cabeçalho se reorganiza.
-
----
-
-## ✨ Funcionalidades
 
 | | |
 |---|---|
@@ -74,38 +43,31 @@ Em telas de até 480px o grid vira uma coluna única e o cabeçalho se reorganiz
 
 ---
 
-## ▶️ Como rodar localmente
+## 👀 Prévia
 
-```bash
-git clone https://github.com/GustavoRibasSilestrino/Frontend.git
-```
+### ⚛️ Projeto 01 — React
 
-Entre na pasta do projeto desejado e rode:
+[![Cardápio Digital em React](docs/preview/react.png)](https://cardapio-react-phi.vercel.app)
 
-```bash
-npm install
-```
+### 💚 Projeto 02 — Vue
 
-| Projeto | Comando | Endereço |
-|---|---|---|
-| ⚛️ React | `npm run dev` | http://localhost:5173 |
-| 💚 Vue | `npm run dev` | http://localhost:5173 |
-| 🅰️ Angular | `npm start` | http://localhost:4200 |
-| ▲ Next.js | `npm run dev` | http://localhost:3000 |
+[![Cardápio Digital em Vue](docs/preview/vue.png)](https://cardapio-vue-one.vercel.app)
 
----
+### 🅰️ Projeto 03 — Angular
 
-## 🚀 Publicar na Vercel
+[![Cardápio Digital em Angular](docs/preview/angular.png)](https://cardapio-angular.vercel.app)
 
-Para gerar as URLs públicas, cada projeto entra como um site separado:
+### ▲ Projeto 04 — Next.js
 
-1. [vercel.com/new](https://vercel.com/new) → **Import** neste repositório;
-2. Em **Root Directory**, clique em *Edit* e aponte para a pasta do projeto
-   (ex.: `Atividade/Aula 2/cardapio-react`);
-3. O framework é detectado sozinho (Vite / Angular / Next.js) → **Deploy**;
-4. Repita para os outros três, mudando só o Root Directory.
+[![Cardápio Digital em Next.js](docs/preview/next.png)](https://cardapio-next-khaki.vercel.app)
 
-Depois é só substituir os ⏳ da tabela pelos links gerados.
+### 📱 Responsivo
+
+<div align="center">
+<img src="docs/preview/react-mobile.png" alt="Versão mobile do cardápio" width="330">
+</div>
+
+Em telas de até 480px o grid vira uma coluna única e o cabeçalho se reorganiza.
 
 ---
 

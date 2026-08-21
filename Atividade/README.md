@@ -24,13 +24,13 @@ Cada aula tem sua pasta, seu código e seu deploy.
 | # | Entrega | Tecnologia | Código | Site | Status |
 |:--:|---|---|:--:|:--:|:--:|
 | **01** | Página com HTML, CSS e JS | `Vanilla JS` | [📁 Aula 1](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%201) | [🔗 Acessar](https://aula-1-deivison.vercel.app) | ✅ Publicado |
-| **02** | Cardápio Digital — Projeto 01 | `React 19 + Vite` | [📁 cardapio-react](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%202/cardapio-react) | ⏳ | ✅ Concluído |
-| **03** | Cardápio Digital — Projeto 02 | `Vue 3 + Vite` | [📁 cardapio-vue](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%203/cardapio-vue) | ⏳ | ✅ Concluído |
-| **04** | Cardápio Digital — Projeto 03 | `Angular` | [📁 cardapio-angular](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%204/cardapio-angular) | ⏳ | ✅ Concluído |
-| **05** | Cardápio Digital — Projeto 04 | `Next.js (App Router)` | [📁 cardapio-next](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%205/cardapio-next) | ⏳ | ✅ Concluído |
+| **02** | Cardápio Digital — Projeto 01 | `React 19 + Vite` | [📁 cardapio-react](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%202/cardapio-react) | [🔗 Acessar](https://cardapio-react-phi.vercel.app) | ✅ Publicado |
+| **03** | Cardápio Digital — Projeto 02 | `Vue 3 + Vite` | [📁 cardapio-vue](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%203/cardapio-vue) | [🔗 Acessar](https://cardapio-vue-one.vercel.app) | ✅ Publicado |
+| **04** | Cardápio Digital — Projeto 03 | `Angular` | [📁 cardapio-angular](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%204/cardapio-angular) | [🔗 Acessar](https://cardapio-angular.vercel.app) | ✅ Publicado |
+| **05** | Cardápio Digital — Projeto 04 | `Next.js (App Router)` | [📁 cardapio-next](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%205/cardapio-next) | [🔗 Acessar](https://cardapio-next-khaki.vercel.app) | ✅ Publicado |
 | **06** | Cópia de um repositório — Projeto 05 | `a definir` | [📁 Aula 6](https://github.com/GustavoRibasSilestrino/Frontend/tree/master/Atividade/Aula%206) | ⏳ | 🚧 Pendente |
 
-> ⏳ = deploy ainda não publicado. Assim que subir na Vercel, é só trocar o ícone pelo link.
+> Os quatro projetos estão publicados na Vercel. O Projeto 05 aguarda a definição do repositório a ser copiado.
 
 ---
 
